@@ -1,17 +1,13 @@
 def FizzBuzz(num)
-    result = ""
-    
     if num % 15 == 0
-        result = "FizzBuzz"
+        "FizzBuzz"
     elsif num % 5 == 0
-        result = "Buzz"
+        "Buzz"
     elsif num % 3 == 0
-        result = "Fizz"
+        "Fizz"
     else
-        result = num
+        num.to_s
     end
-        
-    return result
 end
 
 num_max = 100
